@@ -7,13 +7,15 @@ public class Encapsulationdemo {
         int age;
         
         void show() {  // member function 
-                System.out.println(serialnumber +""+name+""+age);
+                System.out.println(serialnumber );
+                System.out.println("name");
+                System.out.println("56");
         }
         
         public static void main(String[] args) {
                 Encapsulationdemo e=new Encapsulationdemo();
                 e.serialnumber=9;
-                e.name="Ramesh";
+                e.name="harisha";
                 e.age=56;
                 
                 e.show();
