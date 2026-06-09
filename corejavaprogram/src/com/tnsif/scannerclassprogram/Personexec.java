@@ -3,6 +3,7 @@ package com.tnsif.scannerclassprogram;
 import java.util.Scanner;
 
 public class Personexec {
+	
         public static void main(String[] args) {
                 
 Scanner sc=new Scanner(System.in);
@@ -20,7 +21,5 @@ t.calculatetax(pp);
 
 System.out.println("after tax calculation ");
 System.out.println(pp);
-
-
 }
 }
