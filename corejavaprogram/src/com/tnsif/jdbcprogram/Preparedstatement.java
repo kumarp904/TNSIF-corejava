@@ -28,9 +28,9 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 //	System.out.println(countinserted +""record inserted"");
 	
 	
-	// deleteting the data into database
+	//deleteting the data into database
 	
-	String sqldelete="delete from library where sid=114";
+	String sqldelete="delete from library where sid=111";
 	System.out.println("the sql statement is "+sqldelete);
 	
 	int countdeleted=st.executeUpdate(sqldelete);
