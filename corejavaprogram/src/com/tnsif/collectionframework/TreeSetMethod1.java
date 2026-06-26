@@ -10,6 +10,7 @@ public class TreeSetMethod1 {
 		t.add("Kumar");
 		t.add("Abhi");
 		t.add("abhi");
+		t.add("Praveen");
 		
 		//add(null)
 		for(String name:t) {
